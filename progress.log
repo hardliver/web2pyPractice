@@ -1,0 +1,8 @@
+[2019-06-21 16:20:56] START
+[2019-06-21 16:21:41] CREATE basics.py: 0
+[2019-06-21 16:23:34] EDIT pluralsight/controllers/basics.py: 4
+[2019-06-21 16:24:05] CREATE basics.html: 0
+[2019-06-21 16:24:32] CREATE basics/helloworld.html: 0
+[2019-06-21 16:26:41] EDIT pluralsight/views/basics/helloworld.html: 4
+[2019-06-21 16:28:04] EDIT pluralsight/views/basics/helloworld.html: -2
+[2019-06-21 16:28:55] EDIT pluralsight/views/basics/helloworld.html: 3
