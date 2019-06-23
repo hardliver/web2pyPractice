@@ -1,5 +1,20 @@
 # -*- coding: utf-8 -*-
 # 嘗試如
+import random
+
+def isPrime(num):
+    counter = 2
+    while counter < num - 1:
+        if num%counter==0:
+            return False
+        counter = counter + 1
+    return True
+
+def random_number():
+    x = random.randint(3,20)
+    result = isPrime(x)
+    return locals()
+
 def request_object():
     app = request.application
     cntr = request.controller
