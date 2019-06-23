@@ -19,6 +19,7 @@ def request_vars():
         num1 = float(request.post_vars.num1)
         num2 = float(request.post_vars.num2)
         total = num1 + num2
+        response.flash = T("The total is " + str(total))
     return locals()
 
 def request_args():
