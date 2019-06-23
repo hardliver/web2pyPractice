@@ -53,3 +53,14 @@ CREATE TABLE "auth_cas"(
     "renew" CHAR(1)
 );
 success!
+timestamp: 2019-06-23T17:50:36.207269
+CREATE TABLE "blog"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "blog_tital" CHAR(512),
+    "blog_detials" TEXT,
+    "blog_image" CHAR(512),
+    "blog_url" CHAR(512),
+    "blog_category" CHAR(512),
+    "blog_date_posted" DATE
+);
+success!

@@ -153,12 +153,3 @@ if configuration.get('scheduler.enabled'):
 # after defining tables, uncomment below to enable auditing
 # -------------------------------------------------------------------------
 # auth.enable_record_versioning(db)
-
-db.define_table('blog',
-                Field('blog_tital', requires=IS_NOT_EMPTY() ),
-                Field('blog_detials', type='text'),
-                Field('blog_image', requires=IS_URL() ),
-                Field('blog_url', requires=IS_URL() ),
-                Field('blog_category', requires=IS_IN_SET(['News', 'Events']) ),
-                Field('blog_date_posted', type='date', require=IS_DATE() )
-                )
