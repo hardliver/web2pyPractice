@@ -29,3 +29,8 @@
 [2019-06-23 17:14:37] CREATE basics/random_number.html: 0
 [2019-06-23 17:16:40] EDIT pluralsight/views/basics/random_number.html: 5
 [2019-06-23 17:50:19] EDIT pluralsight/models/db.py: 8
+[2019-06-23 18:16:06] CREATE blog.py: 0
+[2019-06-23 18:19:26] EDIT pluralsight/controllers/blog.py: 6
+[2019-06-23 18:19:57] EDIT pluralsight/controllers/blog.py: 0
+[2019-06-23 18:23:20] CREATE blog/post.html: 0
+[2019-06-23 18:24:00] EDIT pluralsight/views/blog/post.html: 0
